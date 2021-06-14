@@ -22,7 +22,7 @@ But there is one trick to saving processing time without sacrificing too much pe
 
 
 ## Demo video
-![demo](demo/demo.gif "demo")
+<img src="demo/demo.gif" alt="demo" width="350"/>
 
 ## Installation
 
