@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - OpenCV (4.3.0)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - OpenCV (~> 4.3)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - OpenCV
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  OpenCV: 681e0451c1e54c5930a8922277f817ed5d5ab459
+
+PODFILE CHECKSUM: 73e22e3a4e7fdae2f79695fcc3f8d30101722342
+
+COCOAPODS: 1.9.3
