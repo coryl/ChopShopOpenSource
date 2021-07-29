@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenCVWrapper : NSObject
-+(NSString *) openCVVersionString;
 //Apply grabcut with source image and mask image. Returns a dictionary with result image and resulting contours.
 +(NSDictionary *)applyGrabCutWithDownSample:(BOOL)downsample
                                 sourceImage:(UIImage *)src

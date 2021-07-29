@@ -11,11 +11,6 @@
 
 @implementation OpenCVWrapper
 
-+(NSString *) openCVVersionString
-{
-    return [NSString stringWithFormat:@"OpenCV Version %s", CV_VERSION];
-}
-
 +(NSDictionary *)applyGrabCutWithDownSample:(BOOL)downsample sourceImage:(UIImage*)src maskImage:(UIImage*)mask{
     if (!src || !mask) {
         return nil; //safety check
@@ -224,9 +219,6 @@
     if(!downsampled)
         cv::GaussianBlur(contoursOverlay, contoursOverlay, cv::Size(3,3), 15, 15);
     
-    //Set the image:
-    //[self.canvasScrollView.canvasImageView.contourImageView setImage:[UIImageConverter UIImageFromCVMat:contoursOverlay]];
-    //return [UIImageConverter UIImageFromCVMat:contoursOverlay];
     return contoursOverlay;
 }
 

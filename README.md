@@ -20,6 +20,7 @@ We can also affect quality by changing the ```iterations``` value in the Grabcut
 
 But there is one trick to saving processing time without sacrificing too much performance. A common technique in image/video manipulation: downsampling! By simply making our source image smaller, we can get away with less computation time, but comparable results. I added a ```(BOOL)downsample``` parameter, which if flagged will simply halve the width/height of the source image. Once we have the Grabcut result, we can simply scale resulting mask up to match the original dimensions.
 
+### <a href="ChopShopOpenSource/OpenCVWrapper/OpenCVWrapper.mm">Click here to see all the fun image processing code</a>
 
 ## Demo video
 <img src="demo/demo.gif" alt="demo" width="350"/>
